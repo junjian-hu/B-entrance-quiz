@@ -11,6 +11,8 @@ import java.util.Collections;
 import java.util.List;
 
 @RestController
+//TODO GTB-综合: - MemberController.java:14 代码实现太少，无法给出更多的feedback
+//TODO GTB-完成度: - MemberController.java:14 缺少添加学员、分组、查看分组等接口
 public class MemberController {
     MemberService memberService;
 
@@ -19,6 +21,8 @@ public class MemberController {
     }
 
     @CrossOrigin("http://localhost:1234")
+    //TODO GTB-知识点: * 了解下restful规范
+    //TODO GTB-完成度: - MemberController.java:25 获取所有学员的需求，没有要求打乱顺序
     @GetMapping("/allMembers")
     @ResponseBody
     public List<Member> getAllMembers(){

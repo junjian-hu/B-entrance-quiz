@@ -4,7 +4,7 @@ import com.thoughtworks.capability.gtb.entrancequiz.model.Member;
 
 import java.util.Arrays;
 import java.util.List;
-
+//TODO GTB-知识点: * 了解下Repository的概念
 public class MemberProvider {
     public static List<Member> MemberList(){
         List<Member> MemberList = Arrays.asList(
